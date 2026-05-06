@@ -1,737 +1,785 @@
-[{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441001"
-  },
-  "title": "Hướng dẫn MongoDB",
-  "content": "MongoDB là CSDL NoSQL...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439003"
-  },
-  "authorName": "Nguyễn Văn An",
-  "status": "published",
-  "stats": {
-    "views": 246,
-    "likes": 3,
-    "comments": 2
-  },
-  "likedBy": [
-    {
+[
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441001"
+    },
+    "title": "Hướng dẫn MongoDB",
+    "content": "MongoDB là CSDL NoSQL...",
+    "authorId": {
       "$oid": "507f1f77bcf86cd799439003"
     },
-    {
-      "$oid": "507f1f77bcf86cd79943900a"
+    "authorName": "Nguyễn Văn An",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440001"
     },
-    {
-      "$oid": "507f1f77bcf86cd79943900b"
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 246,
+      "likes": 3,
+      "comments": 2
+    },
+    "likedBy": [
+      {
+        "$oid": "507f1f77bcf86cd799439003"
+      },
+      {
+        "$oid": "507f1f77bcf86cd79943900a"
+      },
+      {
+        "$oid": "507f1f77bcf86cd79943900b"
+      }
+    ],
+    "publishedAt": {
+      "$date": "2024-08-17T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-08-15T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-15T17:00:00.000Z"
     }
-  ],
-  "publishedAt": {
-    "$date": "2024-08-17T17:00:00.000Z"
   },
-  "createdAt": {
-    "$date": "2024-08-15T17:00:00.000Z"
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441002"
+    },
+    "title": "Ẩm thực Hà Nội",
+    "content": "Hà Nội có ẩm thực phong phú...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439004"
+    },
+    "authorName": "Trần Thị Bích",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440003"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 420,
+      "likes": 1,
+      "comments": 2
+    },
+    "likedBy": [
+      {
+        "$oid": "507f1f77bcf86cd79943900c"
+      }
+    ],
+    "publishedAt": {
+      "$date": "2024-08-27T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-08-25T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-08-25T17:00:00.000Z"
+    }
   },
-  "category": "Lập trình",
-  "tags": [],
-  "thumbnail": "",
-  "updatedAt": {
-    "$date": "2024-08-15T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441002"
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441003"
+    },
+    "title": "Du lịch Đà Lạt",
+    "content": "Đà Lạt là thành phố mộng mơ...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439005"
+    },
+    "authorName": "Lê Hoàng Cường",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440002"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 380,
+      "likes": 1,
+      "comments": 1
+    },
+    "likedBy": [
+      {
+        "$oid": "507f1f77bcf86cd79943900d"
+      }
+    ],
+    "publishedAt": {
+      "$date": "2024-09-06T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-09-04T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-09-04T17:00:00.000Z"
+    }
   },
-  "title": "Ẩm thực Hà Nội",
-  "content": "Hà Nội có ẩm thực phong phú...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439004"
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441004"
+    },
+    "title": "Xu hướng AI 2026",
+    "content": "AI đang phát triển nhanh...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439006"
+    },
+    "authorName": "Phạm Minh Đức",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440001"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 520,
+      "likes": 0,
+      "comments": 1
+    },
+    "likedBy": [],
+    "publishedAt": {
+      "$date": "2024-09-16T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-09-14T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-09-14T17:00:00.000Z"
+    }
   },
-  "authorName": "Trần Thị Bích",
-  "status": "published",
-  "stats": {
-    "views": 420,
-    "likes": 1,
-    "comments": 2
-  },
-  "publishedAt": {
-    "$date": "2024-08-27T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-08-25T17:00:00.000Z"
-  },
-  "category": "Ẩm thực",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [
-    {
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441005"
+    },
+    "title": "Học tiếng Anh",
+    "content": "Phương pháp học hiệu quả...",
+    "authorId": {
       "$oid": "507f1f77bcf86cd79943900c"
-    }
-  ],
-  "updatedAt": {
-    "$date": "2024-08-25T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441003"
-  },
-  "title": "Du lịch Đà Lạt",
-  "content": "Đà Lạt là thành phố mộng mơ...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439005"
-  },
-  "authorName": "Lê Hoàng Cường",
-  "status": "published",
-  "stats": {
-    "views": 380,
-    "likes": 1,
-    "comments": 1
-  },
-  "publishedAt": {
-    "$date": "2024-09-06T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-09-04T17:00:00.000Z"
-  },
-  "category": "Du lịch",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [
-    {
-      "$oid": "507f1f77bcf86cd79943900d"
-    }
-  ],
-  "updatedAt": {
-    "$date": "2024-09-04T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441004"
-  },
-  "title": "Xu hướng AI 2026",
-  "content": "AI đang phát triển nhanh...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439006"
-  },
-  "authorName": "Phạm Minh Đức",
-  "status": "published",
-  "stats": {
-    "views": 520,
-    "likes": 0,
-    "comments": 1
-  },
-  "publishedAt": {
-    "$date": "2024-09-16T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-09-14T17:00:00.000Z"
-  },
-  "category": "Lập trình",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [],
-  "updatedAt": {
-    "$date": "2024-09-14T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441005"
-  },
-  "title": "Học tiếng Anh",
-  "content": "Phương pháp học hiệu quả...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd79943900c"
-  },
-  "authorName": "Lê Thu",
-  "status": "published",
-  "stats": {
-    "views": 291,
-    "likes": 1,
-    "comments": 2
-  },
-  "publishedAt": {
-    "$date": "2024-10-11T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-10-09T17:00:00.000Z"
-  },
-  "likedBy": [
-    {
-      "$oid": "507f1f77bcf86cd79943900b"
-    }
-  ],
-  "category": "Giáo dục",
-  "tags": [],
-  "thumbnail": "",
-  "updatedAt": {
-    "$date": "2024-10-09T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441006"
-  },
-  "title": "Đầu tư chứng khoán",
-  "content": "Cách đầu tư an toàn...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439008"
-  },
-  "authorName": "Hoàng Văn Phúc",
-  "status": "published",
-  "stats": {
-    "views": 465,
-    "likes": 0,
-    "comments": 1
-  },
-  "publishedAt": {
-    "$date": "2024-09-26T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-09-24T17:00:00.000Z"
-  },
-  "category": "Tài chính",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [],
-  "updatedAt": {
-    "$date": "2024-09-24T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441007"
-  },
-  "title": "iPhone 17 Pro Max",
-  "content": "Review chi tiết...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439006"
-  },
-  "authorName": "Phạm Minh Đức",
-  "status": "published",
-  "stats": {
-    "views": 580,
-    "likes": 0,
-    "comments": 1
-  },
-  "publishedAt": {
-    "$date": "2024-10-06T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-10-04T17:00:00.000Z"
-  },
-  "category": "Công nghệ",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [],
-  "updatedAt": {
-    "$date": "2024-10-04T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441008"
-  },
-  "title": "Du lịch Nhật Bản",
-  "content": "Hành trình 7 ngày...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439005"
-  },
-  "authorName": "Lê Hoàng Cường",
-  "status": "published",
-  "stats": {
-    "views": 640,
-    "likes": 0,
-    "comments": 1
-  },
-  "publishedAt": {
-    "$date": "2024-10-21T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-10-19T17:00:00.000Z"
-  },
-  "category": "Du lịch",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [],
-  "updatedAt": {
-    "$date": "2024-10-19T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441009"
-  },
-  "title": "Framework JavaScript",
-  "content": "So sánh các framework...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd79943900e"
-  },
-  "authorName": "Nguyễn Khôi",
-  "status": "published",
-  "stats": {
-    "views": 395,
-    "likes": 0,
-    "comments": 1
-  },
-  "publishedAt": {
-    "$date": "2024-11-10T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-11-08T17:00:00.000Z"
-  },
-  "category": "Lập trình",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [],
-  "updatedAt": {
-    "$date": "2024-11-08T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd79944100a"
-  },
-  "title": "Nấu phở bò",
-  "content": "Công thức phở Hà Nội...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439004"
-  },
-  "authorName": "Trần Thị Bích",
-  "status": "published",
-  "stats": {
-    "views": 471,
-    "likes": 1,
-    "comments": 2
-  },
-  "publishedAt": {
-    "$date": "2024-10-31T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-10-29T17:00:00.000Z"
-  },
-  "category": "Ẩm thực",
-  "likedBy": [
-    {
-      "$oid": "507f1f77bcf86cd799439003"
-    }
-  ],
-  "tags": [],
-  "thumbnail": "",
-  "updatedAt": {
-    "$date": "2024-10-29T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd79944100b"
-  },
-  "title": "Sách phát triển bản thân",
-  "content": "5 cuốn sách kinh điển...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439011"
-  },
-  "authorName": "Ngọc Ánh",
-  "status": "published",
-  "stats": {
-    "views": 310,
-    "likes": 0,
-    "comments": 1
-  },
-  "publishedAt": {
-    "$date": "2024-11-25T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-11-23T17:00:00.000Z"
-  },
-  "category": "Giáo dục",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [],
-  "updatedAt": {
-    "$date": "2024-11-23T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd79944100c"
-  },
-  "title": "VinFast VF8",
-  "content": "Trải nghiệm xe điện...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439015"
-  },
-  "authorName": "Hồng Nhung",
-  "status": "published",
-  "stats": {
-    "views": 220,
-    "likes": 0,
-    "comments": 1
-  },
-  "publishedAt": {
-    "$date": "2024-12-25T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-12-23T17:00:00.000Z"
-  },
-  "category": "Công nghệ",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [],
-  "updatedAt": {
-    "$date": "2024-12-23T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd79944100d"
-  },
-  "title": "Giao tiếp công sở",
-  "content": "Kỹ năng giao tiếp...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439011"
-  },
-  "authorName": "Ngọc Ánh",
-  "status": "published",
-  "stats": {
-    "views": 340,
-    "likes": 0,
-    "comments": 1
-  },
-  "publishedAt": {
-    "$date": "2024-11-30T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-11-28T17:00:00.000Z"
-  },
-  "category": "Giải trí",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [],
-  "updatedAt": {
-    "$date": "2024-11-28T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd79944100e"
-  },
-  "title": "Chăm sóc da mùa đông",
-  "content": "Quy trình skincare...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439007"
-  },
-  "authorName": "Đỗ Thị Hồng",
-  "status": "published",
-  "stats": {
-    "views": 421,
-    "likes": 1,
-    "comments": 1
-  },
-  "publishedAt": {
-    "$date": "2024-12-10T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-12-08T17:00:00.000Z"
-  },
-  "category": "Sức khỏe",
-  "likedBy": [
-    {
-      "$oid": "507f1f77bcf86cd799439003"
-    }
-  ],
-  "tags": [],
-  "thumbnail": "",
-  "updatedAt": {
-    "$date": "2024-12-08T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd79944100f"
-  },
-  "title": "Cuộc sống freelancer",
-  "content": "3 năm làm freelancer...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439013"
-  },
-  "authorName": "Thùy Linh",
-  "status": "published",
-  "stats": {
-    "views": 491,
-    "likes": 1,
-    "comments": 1
-  },
-  "publishedAt": {
-    "$date": "2024-12-20T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-12-18T17:00:00.000Z"
-  },
-  "likedBy": [
-    {
-      "$oid": "507f1f77bcf86cd799439003"
-    }
-  ],
-  "category": "Sức khỏe",
-  "tags": [],
-  "thumbnail": "",
-  "updatedAt": {
-    "$date": "2024-12-18T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441010"
-  },
-  "title": "Khám phá Sapa",
-  "content": "Lịch trình 3N2Đ...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439005"
-  },
-  "authorName": "Lê Hoàng Cường",
-  "status": "published",
-  "stats": {
-    "views": 392,
-    "likes": 2,
-    "comments": 1
-  },
-  "publishedAt": {
-    "$date": "2024-12-30T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-12-28T17:00:00.000Z"
-  },
-  "likedBy": [
-    {
-      "$oid": "507f1f77bcf86cd799439003"
     },
-    {
+    "authorName": "Lê Thu",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440007"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 291,
+      "likes": 1,
+      "comments": 2
+    },
+    "likedBy": [
+      {
+        "$oid": "507f1f77bcf86cd79943900b"
+      }
+    ],
+    "publishedAt": {
+      "$date": "2024-10-11T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-10-09T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-09T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441006"
+    },
+    "title": "Đầu tư chứng khoán",
+    "content": "Cách đầu tư an toàn...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439008"
+    },
+    "authorName": "Hoàng Văn Phúc",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440005"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 465,
+      "likes": 0,
+      "comments": 1
+    },
+    "likedBy": [],
+    "publishedAt": {
+      "$date": "2024-09-26T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-09-24T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-09-24T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441007"
+    },
+    "title": "iPhone 17 Pro Max",
+    "content": "Review chi tiết...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439006"
+    },
+    "authorName": "Phạm Minh Đức",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440004"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 580,
+      "likes": 0,
+      "comments": 1
+    },
+    "likedBy": [],
+    "publishedAt": {
+      "$date": "2024-10-06T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-10-04T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-04T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441008"
+    },
+    "title": "Du lịch Nhật Bản",
+    "content": "Hành trình 7 ngày...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439005"
+    },
+    "authorName": "Lê Hoàng Cường",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440002"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 640,
+      "likes": 0,
+      "comments": 1
+    },
+    "likedBy": [],
+    "publishedAt": {
+      "$date": "2024-10-21T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-10-19T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-19T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441009"
+    },
+    "title": "Framework JavaScript",
+    "content": "So sánh các framework...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd79943900e"
+    },
+    "authorName": "Nguyễn Khôi",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440001"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 395,
+      "likes": 0,
+      "comments": 1
+    },
+    "likedBy": [],
+    "publishedAt": {
+      "$date": "2024-11-10T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-11-08T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-08T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd79944100a"
+    },
+    "title": "Nấu phở bò",
+    "content": "Công thức phở Hà Nội...",
+    "authorId": {
       "$oid": "507f1f77bcf86cd799439004"
-    }
-  ],
-  "category": "Du lịch",
-  "tags": [],
-  "thumbnail": "",
-  "updatedAt": {
-    "$date": "2024-12-28T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441011"
-  },
-  "title": "Node.js REST API",
-  "content": "Hướng dẫn Node.js...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439003"
-  },
-  "authorName": "Nguyễn Văn An",
-  "status": "draft",
-  "stats": {
-    "views": 0,
-    "likes": 0,
-    "comments": 0
-  },
-  "publishedAt": null,
-  "createdAt": {
-    "$date": "2025-01-09T17:00:00.000Z"
-  },
-  "category": "Lập trình",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [],
-  "updatedAt": {
-    "$date": "2025-01-09T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441012"
-  },
-  "title": "React Native 30 ngày",
-  "content": "Lộ trình React...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd79943900e"
-  },
-  "authorName": "Nguyễn Khôi",
-  "status": "draft",
-  "stats": {
-    "views": 0,
-    "likes": 0,
-    "comments": 0
-  },
-  "publishedAt": null,
-  "createdAt": {
-    "$date": "2025-01-11T17:00:00.000Z"
-  },
-  "category": "Lập trình",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [],
-  "updatedAt": {
-    "$date": "2025-01-11T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441013"
-  },
-  "title": "Phân tích kỹ thuật",
-  "content": "PTKT chứng khoán...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439008"
-  },
-  "authorName": "Hoàng Văn Phúc",
-  "status": "draft",
-  "stats": {
-    "views": 0,
-    "likes": 0,
-    "comments": 0
-  },
-  "publishedAt": null,
-  "createdAt": {
-    "$date": "2025-01-07T17:00:00.000Z"
-  },
-  "category": "Tài chính",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [],
-  "updatedAt": {
-    "$date": "2025-01-07T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441014"
-  },
-  "title": "Giảm cân khoa học",
-  "content": "Bí quyết giảm cân...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd79943900f"
-  },
-  "authorName": "Mai Thanh",
-  "status": "archived",
-  "stats": {
-    "views": 310,
-    "likes": 0,
-    "comments": 0
-  },
-  "publishedAt": {
-    "$date": "2024-06-28T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-06-26T17:00:00.000Z"
-  },
-  "category": "Sức khỏe",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [],
-  "updatedAt": {
-    "$date": "2024-06-26T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441015"
-  },
-  "title": "Game offline 2025",
-  "content": "Top game hay...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439009"
-  },
-  "authorName": "Vũ Trọng",
-  "status": "archived",
-  "stats": {
-    "views": 380,
-    "likes": 0,
-    "comments": 0
-  },
-  "publishedAt": {
-    "$date": "2024-07-18T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-07-16T17:00:00.000Z"
-  },
-  "category": "Công nghệ",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [],
-  "updatedAt": {
-    "$date": "2024-07-16T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "507f1f77bcf86cd799441016"
-  },
-  "title": "Lịch sử Việt Nam",
-  "content": "Lịch sử qua các triều đại...",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439003"
-  },
-  "authorName": "Nguyễn Văn An",
-  "status": "archived",
-  "stats": {
-    "views": 275,
-    "likes": 0,
-    "comments": 0
-  },
-  "publishedAt": {
-    "$date": "2024-03-20T17:00:00.000Z"
-  },
-  "createdAt": {
-    "$date": "2024-03-18T17:00:00.000Z"
-  },
-  "category": "Văn hóa",
-  "tags": [],
-  "thumbnail": "",
-  "likedBy": [],
-  "updatedAt": {
-    "$date": "2024-03-18T17:00:00.000Z"
-  }
-},
-{
-  "_id": {
-    "$oid": "69f16b24a5640385c63ef89a"
-  },
-  "title": "Thi kết thúc môn Lập trình web",
-  "content": "Thi ở phòng........",
-  "category": "Lập trình",
-  "tags": [
-    "NodeJS"
-  ],
-  "thumbnail": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=800",
-  "authorId": {
-    "$oid": "507f1f77bcf86cd799439008"
-  },
-  "authorName": "Hoàng Văn Phúc",
-  "status": "published",
-  "stats": {
-    "views": 3,
-    "likes": 3,
-    "comments": 3
-  },
-  "likedBy": [
-    {
-      "$oid": "507f1f77bcf86cd799439001"
     },
-    {
+    "authorName": "Trần Thị Bích",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440003"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 471,
+      "likes": 1,
+      "comments": 2
+    },
+    "likedBy": [
+      {
+        "$oid": "507f1f77bcf86cd799439003"
+      }
+    ],
+    "publishedAt": {
+      "$date": "2024-10-31T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-10-29T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-10-29T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd79944100b"
+    },
+    "title": "Sách phát triển bản thân",
+    "content": "5 cuốn sách kinh điển...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439011"
+    },
+    "authorName": "Ngọc Ánh",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440007"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 310,
+      "likes": 0,
+      "comments": 1
+    },
+    "likedBy": [],
+    "publishedAt": {
+      "$date": "2024-11-25T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-11-23T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-23T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd79944100c"
+    },
+    "title": "VinFast VF8",
+    "content": "Trải nghiệm xe điện...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439015"
+    },
+    "authorName": "Hồng Nhung",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440004"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 220,
+      "likes": 0,
+      "comments": 1
+    },
+    "likedBy": [],
+    "publishedAt": {
+      "$date": "2024-12-25T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-12-23T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-23T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd79944100d"
+    },
+    "title": "Giao tiếp công sở",
+    "content": "Kỹ năng giao tiếp...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439011"
+    },
+    "authorName": "Ngọc Ánh",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440008"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 340,
+      "likes": 0,
+      "comments": 1
+    },
+    "likedBy": [],
+    "publishedAt": {
+      "$date": "2024-11-30T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-11-28T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-11-28T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd79944100e"
+    },
+    "title": "Chăm sóc da mùa đông",
+    "content": "Quy trình skincare...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439007"
+    },
+    "authorName": "Đỗ Thị Hồng",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440006"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 421,
+      "likes": 1,
+      "comments": 1
+    },
+    "likedBy": [
+      {
+        "$oid": "507f1f77bcf86cd799439003"
+      }
+    ],
+    "publishedAt": {
+      "$date": "2024-12-10T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-12-08T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-08T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd79944100f"
+    },
+    "title": "Cuộc sống freelancer",
+    "content": "3 năm làm freelancer...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439013"
+    },
+    "authorName": "Thùy Linh",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440006"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 491,
+      "likes": 1,
+      "comments": 1
+    },
+    "likedBy": [
+      {
+        "$oid": "507f1f77bcf86cd799439003"
+      }
+    ],
+    "publishedAt": {
+      "$date": "2024-12-20T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-12-18T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-18T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441010"
+    },
+    "title": "Khám phá Sapa",
+    "content": "Lịch trình 3N2Đ...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439005"
+    },
+    "authorName": "Lê Hoàng Cường",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440002"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "published",
+    "stats": {
+      "views": 392,
+      "likes": 2,
+      "comments": 1
+    },
+    "likedBy": [
+      {
+        "$oid": "507f1f77bcf86cd799439003"
+      },
+      {
+        "$oid": "507f1f77bcf86cd799439004"
+      }
+    ],
+    "publishedAt": {
+      "$date": "2024-12-30T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-12-28T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-12-28T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441011"
+    },
+    "title": "Node.js REST API",
+    "content": "Hướng dẫn Node.js...",
+    "authorId": {
       "$oid": "507f1f77bcf86cd799439003"
     },
-    {
-      "$oid": "507f1f77bcf86cd799439004"
+    "authorName": "Nguyễn Văn An",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440001"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "draft",
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "likedBy": [],
+    "publishedAt": null,
+    "createdAt": {
+      "$date": "2025-01-09T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-09T17:00:00.000Z"
     }
-  ],
-  "publishedAt": {
-    "$date": "2026-04-29T02:21:24.147Z"
   },
-  "createdAt": {
-    "$date": "2026-04-29T02:21:24.147Z"
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441012"
+    },
+    "title": "React Native 30 ngày",
+    "content": "Lộ trình React...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd79943900e"
+    },
+    "authorName": "Nguyễn Khôi",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440001"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "draft",
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "likedBy": [],
+    "publishedAt": null,
+    "createdAt": {
+      "$date": "2025-01-11T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-11T17:00:00.000Z"
+    }
   },
-  "updatedAt": {
-    "$date": "2026-04-29T02:21:24.147Z"
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441013"
+    },
+    "title": "Phân tích kỹ thuật",
+    "content": "PTKT chứng khoán...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439008"
+    },
+    "authorName": "Hoàng Văn Phúc",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440005"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "draft",
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "comments": 0
+    },
+    "likedBy": [],
+    "publishedAt": null,
+    "createdAt": {
+      "$date": "2025-01-07T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2025-01-07T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441014"
+    },
+    "title": "Giảm cân khoa học",
+    "content": "Bí quyết giảm cân...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd79943900f"
+    },
+    "authorName": "Mai Thanh",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440006"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "archived",
+    "stats": {
+      "views": 310,
+      "likes": 0,
+      "comments": 0
+    },
+    "likedBy": [],
+    "publishedAt": {
+      "$date": "2024-06-28T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-06-26T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-06-26T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441015"
+    },
+    "title": "Game offline 2025",
+    "content": "Top game hay...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439009"
+    },
+    "authorName": "Vũ Trọng",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440004"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "archived",
+    "stats": {
+      "views": 380,
+      "likes": 0,
+      "comments": 0
+    },
+    "likedBy": [],
+    "publishedAt": {
+      "$date": "2024-07-18T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-07-16T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-07-16T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "507f1f77bcf86cd799441016"
+    },
+    "title": "Lịch sử Việt Nam",
+    "content": "Lịch sử qua các triều đại...",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439003"
+    },
+    "authorName": "Nguyễn Văn An",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440009"
+    },
+    "tags": [],
+    "thumbnail": "",
+    "status": "archived",
+    "stats": {
+      "views": 275,
+      "likes": 0,
+      "comments": 0
+    },
+    "likedBy": [],
+    "publishedAt": {
+      "$date": "2024-03-20T17:00:00.000Z"
+    },
+    "createdAt": {
+      "$date": "2024-03-18T17:00:00.000Z"
+    },
+    "updatedAt": {
+      "$date": "2024-03-18T17:00:00.000Z"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "69f16b24a5640385c63ef89a"
+    },
+    "title": "Thi kết thúc môn Lập trình web",
+    "content": "Thi ở phòng........",
+    "authorId": {
+      "$oid": "507f1f77bcf86cd799439008"
+    },
+    "authorName": "Hoàng Văn Phúc",
+    "categoryId": {
+      "$oid": "507f1f77bcf86cd799440001"
+    },
+    "tags": [
+      "NodeJS"
+    ],
+    "thumbnail": "https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?w=800",
+    "status": "published",
+    "stats": {
+      "views": 3,
+      "likes": 3,
+      "comments": 3
+    },
+    "likedBy": [
+      {
+        "$oid": "507f1f77bcf86cd799439001"
+      },
+      {
+        "$oid": "507f1f77bcf86cd799439003"
+      },
+      {
+        "$oid": "507f1f77bcf86cd799439004"
+      }
+    ],
+    "publishedAt": {
+      "$date": "2026-04-29T02:21:24.147Z"
+    },
+    "createdAt": {
+      "$date": "2026-04-29T02:21:24.147Z"
+    },
+    "updatedAt": {
+      "$date": "2026-04-29T02:21:24.147Z"
+    }
   }
-}]
+]

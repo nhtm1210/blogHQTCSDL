@@ -1,9 +1,32 @@
 //  routes/posts.js - CRUD cho collection posts
 
 const express = require("express");
+const { Int32 } = require("mongodb");
 const { getDb, toObjectId, asyncHandler } = require("../db");
 
 const router = express.Router();
+
+// Pipeline join posts ↔ categories: gán tên category vào field `category`
+const withCategoryLookup = [
+  { $lookup: {
+      from: "categories",
+      localField: "categoryId",
+      foreignField: "_id",
+      as: "_categoryDoc"
+    }
+  },
+  { $addFields: {
+      category: {
+        $ifNull: [
+          { $arrayElemAt: ["$_categoryDoc.name", 0] },
+          "$category"
+        ]
+      },
+      categorySlug: { $arrayElemAt: ["$_categoryDoc.slug", 0] }
+    }
+  },
+  { $project: { _categoryDoc: 0 } }
+];
 
 // GET /api/posts?status=&search=&authorId=
 router.get("/", asyncHandler(async (req, res) => {
@@ -12,13 +35,20 @@ router.get("/", asyncHandler(async (req, res) => {
   if (req.query.authorId) filter.authorId = toObjectId(req.query.authorId);
   if (req.query.search) filter.title = { $regex: req.query.search, $options: "i" };
 
-  const posts = await getDb().collection("posts").find(filter).sort({ createdAt: -1 }).toArray();
+  const posts = await getDb().collection("posts").aggregate([
+    { $match: filter },
+    ...withCategoryLookup,
+    { $sort: { createdAt: -1 } }
+  ]).toArray();
   res.json(posts);
 }));
 
 // GET /api/posts/:id
 router.get("/:id", asyncHandler(async (req, res) => {
-  const post = await getDb().collection("posts").findOne({ _id: toObjectId(req.params.id) });
+  const [post] = await getDb().collection("posts").aggregate([
+    { $match: { _id: toObjectId(req.params.id) } },
+    ...withCategoryLookup
+  ]).toArray();
   if (!post) return res.status(404).json({ error: "Không tìm thấy" });
   res.json(post);
 }));
@@ -26,7 +56,7 @@ router.get("/:id", asyncHandler(async (req, res) => {
 // POST /api/posts - User đăng bài (auto-activate author sub-document)
 router.post("/", asyncHandler(async (req, res) => {
   const db = getDb();
-  const { authorId, title, content, category, tags, thumbnail, status } = req.body;
+  const { authorId, title, content, category, categoryId, tags, thumbnail, status } = req.body;
 
   const userId = toObjectId(authorId);
   const user = await db.collection("users").findOne({ _id: userId });
@@ -34,15 +64,20 @@ router.post("/", asyncHandler(async (req, res) => {
   if (user.status !== "active") return res.status(403).json({ error: "Tài khoản không hợp lệ" });
   if (user.role === "admin") return res.status(403).json({ error: "Admin không được đăng bài" });
 
+  // Resolve categoryId: chấp nhận cả categoryId (ObjectId string) lẫn category (tên)
+  const catFilter = categoryId ? { _id: toObjectId(categoryId) } : { name: category };
+  const categoryDoc = await db.collection("categories").findOne(catFilter);
+  if (!categoryDoc) return res.status(400).json({ error: "Chủ đề không tồn tại" });
+
   const newPost = {
     title, content,
-    category: category || "Tổng hợp",
+    categoryId: categoryDoc._id,
     tags: tags || [],
     thumbnail: thumbnail || "",
     authorId: userId,
     authorName: user.fullName,
     status: status || "draft",
-    stats: { views: 0, likes: 0, comments: 0 },
+    stats: { views: new Int32(0), likes: new Int32(0), comments: new Int32(0) },
     likedBy: [],
     publishedAt: status === "published" ? new Date() : null,
     createdAt: new Date(),
@@ -51,13 +86,19 @@ router.post("/", asyncHandler(async (req, res) => {
 
   const result = await db.collection("posts").insertOne(newPost);
 
+  // Tăng postsCount của category tương ứng
+  await db.collection("categories").updateOne(
+    { _id: categoryDoc._id },
+    { $inc: { postsCount: 1 } }
+  );
+
   // Auto-activate author sub-document khi đăng bài đầu tiên
   if (!user.author?.isAuthor) {
     await db.collection("users").updateOne({ _id: userId }, {
       $set: {
         "author.isAuthor": true,
         "author.authorSince": new Date(),
-        "author.specialization": category || "Tổng hợp",
+        "author.specialization": categoryDoc.name,
         "author.totalLikes": 0,
         "author.totalViews": 0
       },
@@ -122,6 +163,14 @@ router.delete("/:id", asyncHandler(async (req, res) => {
     db.collection("bookmarks").deleteMany({ postId }),
     db.collection("posts").deleteOne({ _id: postId })
   ]);
+
+  // Giảm postsCount của category tương ứng
+  if (post.categoryId) {
+    await db.collection("categories").updateOne(
+      { _id: post.categoryId },
+      { $inc: { postsCount: -1 } }
+    );
+  }
 
   // Cập nhật stats author
   await db.collection("users").updateOne(
