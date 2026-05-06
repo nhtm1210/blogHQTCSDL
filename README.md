@@ -47,39 +47,6 @@ blog-app/
             └── CreatePostModal.jsx
 ```
 
-## 🚀 Hướng dẫn chạy
-
-### 1. Khởi tạo MongoDB
-Đảm bảo MongoDB đang chạy ở `localhost:27017`, rồi chạy:
-```bash
-mongosh < blog_system.js
-```
-
-### 2. Chạy Backend
-
-```bash
-cd backend
-npm install
-node server.js
-```
-
-Bạn sẽ thấy:
-```
-✓ MongoDB connected: mongodb://localhost:27017/blogManagementDB
-✓ Found 22 users in database
-🚀 Backend API: http://localhost:4000/api
-```
-
-### 3. Chạy Frontend (terminal mới)
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Mở **http://localhost:5173**
-
 ## 📡 API Endpoints
 
 | Method | Endpoint | Mô tả |
@@ -106,7 +73,7 @@ Mở **http://localhost:5173**
 | GET | `/api/activity-logs` | Audit logs |
 | GET | `/api/stats` | Dashboard tổng hợp + top authors + trending |
 
-## 🎯 Demo các nghiệp vụ
+##  Demo các nghiệp vụ
 
 **Admin có thể:**
 - Xem stats lượt like/view của từng blog
@@ -136,7 +103,7 @@ Mở **http://localhost:5173**
 - Trending posts (likes×3 + comments×5 + views)
 - Search full-text
 
-## 🐛 Debug
+##  Debug
 
 **"Không kết nối được API"** → Kiểm tra backend đã chạy chưa (`node server.js`)
 
