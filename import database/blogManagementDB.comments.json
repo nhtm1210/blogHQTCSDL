@@ -1,0 +1,430 @@
+[{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa8f4"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441001"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd79943900b"
+  },
+  "username": "dangminh",
+  "content": "Bài hay quá anh ơi!",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-08-19T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa8f5"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441001"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "content": "Cảm ơn em!",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-08-20T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa8f6"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441002"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd79943900a"
+  },
+  "username": "buithanh",
+  "content": "Đói bụng quá 😭",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-08-29T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa8f7"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441002"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "username": "tranthib",
+  "content": "Haha cảm ơn bạn!",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-08-30T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa8f8"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441003"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "username": "tranthib",
+  "content": "Đà Lạt tuyệt vời!",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-09-08T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa8f9"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441004"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "content": "AI đang hot quá!",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-09-18T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa8fa"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441005"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd79943900b"
+  },
+  "username": "dangminh",
+  "content": "Phương pháp shadowing hay",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-10-13T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa8fb"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441006"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd79943900d"
+  },
+  "username": "truongan",
+  "content": "Nguyên tắc 3 rất hữu ích",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-09-28T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa8fc"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441007"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439009"
+  },
+  "username": "vutrong",
+  "content": "Camera 200MP khủng quá!",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-10-08T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa8fd"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441008"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "username": "tranthib",
+  "content": "Mình cũng muốn đi",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-10-23T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa8fe"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441009"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "content": "Astro là tương lai",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-11-12T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa8ff"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd79944100a"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd79943900a"
+  },
+  "username": "buithanh",
+  "content": "Thử công thức rồi, tuyệt!",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-11-02T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa900"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd79944100b"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd79943900c"
+  },
+  "username": "lethu",
+  "content": "Atomic Habits đúng hay",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-11-27T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa901"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd79944100c"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439008"
+  },
+  "username": "hoangvanf",
+  "content": "Chi phí sạc tháng bao nhiêu?",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-12-27T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa902"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd79944100d"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd79943900a"
+  },
+  "username": "buithanh",
+  "content": "Email chuyên nghiệp quan trọng",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-12-02T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa903"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd79944100e"
+  },
+  "username": "unknown",
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439007"
+  },
+  "content": "Hyaluronic Acid must-have",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-12-12T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa904"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd79944100f"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "content": "Cân nhắc chuyển freelance",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2024-12-22T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa905"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441010"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "username": "tranthib",
+  "content": "Sapa tuyệt vời lắm!",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2025-01-01T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa906"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441001"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439016"
+  },
+  "username": "spam_user",
+  "content": "MUA HÀNG GIÁ RẺ NGAY",
+  "parentCommentId": null,
+  "status": "hidden",
+  "createdAt": {
+    "$date": "2025-01-04T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f026cb71a7ec741a814916"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441005"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd79943900b"
+  },
+  "username": "dangminh",
+  "userAvatar": null,
+  "content": ".\n",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2026-04-28T03:17:31.611Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-28T03:17:31.611Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f16b3ea5640385c63ef89c"
+  },
+  "postId": {
+    "$oid": "69f16b24a5640385c63ef89a"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439008"
+  },
+  "username": "hoangvanf",
+  "userAvatar": null,
+  "content": "sadfafadfaf",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2026-04-29T02:21:50.949Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-29T02:21:50.949Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f16b42a5640385c63ef89e"
+  },
+  "postId": {
+    "$oid": "69f16b24a5640385c63ef89a"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439008"
+  },
+  "username": "hoangvanf",
+  "userAvatar": null,
+  "content": "ádfasfdasfd",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2026-04-29T02:21:54.113Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-29T02:21:54.113Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f195ad4e3d2e944bcff9f1"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd79944100a"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "userAvatar": null,
+  "content": "ngon\n",
+  "parentCommentId": null,
+  "status": "visible",
+  "createdAt": {
+    "$date": "2026-04-29T05:22:53.887Z"
+  },
+  "updatedAt": {
+    "$date": "2026-04-29T05:22:53.887Z"
+  }
+}]

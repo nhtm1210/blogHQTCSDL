@@ -1,0 +1,545 @@
+[{
+  "_id": {
+    "$oid": "69f0265e71a7ec741a81490d"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "post_liked",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd79944100f"
+  },
+  "createdAt": {
+    "$date": "2026-04-28T03:15:42.937Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f0267471a7ec741a814910"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "post_liked",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799441010"
+  },
+  "createdAt": {
+    "$date": "2026-04-28T03:16:04.426Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f0269e71a7ec741a814912"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "post_liked",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799441001"
+  },
+  "createdAt": {
+    "$date": "2026-04-28T03:16:46.343Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f026c871a7ec741a814915"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd79943900b"
+  },
+  "username": "dangminh",
+  "action": "post_liked",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799441005"
+  },
+  "createdAt": {
+    "$date": "2026-04-28T03:17:28.279Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f026cb71a7ec741a814918"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd79943900b"
+  },
+  "username": "dangminh",
+  "action": "comment_added",
+  "targetType": "comment",
+  "targetId": {
+    "$oid": "69f026cb71a7ec741a814916"
+  },
+  "createdAt": {
+    "$date": "2026-04-28T03:17:31.617Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f16b24a5640385c63ef89b"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439008"
+  },
+  "username": "hoangvanf",
+  "action": "post_created",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "69f16b24a5640385c63ef89a"
+  },
+  "metadata": {
+    "title": "Thi kết thúc môn Lập trình web",
+    "status": "published"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T02:21:24.156Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f16b3ea5640385c63ef89d"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439008"
+  },
+  "username": "hoangvanf",
+  "action": "comment_added",
+  "targetType": "comment",
+  "targetId": {
+    "$oid": "69f16b3ea5640385c63ef89c"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T02:21:50.951Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f16b42a5640385c63ef89f"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439008"
+  },
+  "username": "hoangvanf",
+  "action": "comment_added",
+  "targetType": "comment",
+  "targetId": {
+    "$oid": "69f16b42a5640385c63ef89e"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T02:21:54.114Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f16e077b2f2b8884534eed"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439016"
+  },
+  "username": "spam_user",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439016"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T02:33:43.861Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f16e147b2f2b8884534eee"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439002"
+  },
+  "username": "mod_helper",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439002"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T02:33:56.234Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f16e187b2f2b8884534eef"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T02:34:00.612Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f16e217b2f2b8884534ef2"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "post_liked",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "69f16b24a5640385c63ef89a"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T02:34:09.299Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f16f6d7b2f2b8884534ef3"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T02:39:41.057Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f16fb47b2f2b8884534ef4"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T02:40:52.491Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f171d97b2f2b8884534ef5"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T02:50:01.293Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f171df7b2f2b8884534ef7"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "post_created",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "69f171df7b2f2b8884534ef6"
+  },
+  "metadata": {
+    "title": "ádasd",
+    "status": "draft"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T02:50:07.504Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f171ea7b2f2b8884534ef8"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "post_deleted_by_owner",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "69f171df7b2f2b8884534ef6"
+  },
+  "metadata": {
+    "title": "ádasd"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T02:50:18.150Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f171f47b2f2b8884534efa"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "post_created",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "69f171f47b2f2b8884534ef9"
+  },
+  "metadata": {
+    "title": "ádasdsadsa",
+    "status": "draft"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T02:50:28.763Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f171fe7b2f2b8884534efb"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "post_deleted_by_owner",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "69f171f47b2f2b8884534ef9"
+  },
+  "metadata": {
+    "title": "ádasdsadsa"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T02:50:38.140Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f194984e3d2e944bcff9e1"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T05:18:16.207Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f194b64e3d2e944bcff9e2"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439001"
+  },
+  "username": "admin_master",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439001"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T05:18:46.623Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f195024e3d2e944bcff9e3"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T05:20:02.894Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f195224e3d2e944bcff9e4"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439001"
+  },
+  "username": "admin_master",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439001"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T05:20:34.104Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f195744e3d2e944bcff9e5"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T05:21:56.126Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f1957e4e3d2e944bcff9eb"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "post_liked",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd79944100e"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T05:22:06.373Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f195aa4e3d2e944bcff9ef"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "post_liked",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd79944100a"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T05:22:50.435Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f195ad4e3d2e944bcff9f3"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "comment_added",
+  "targetType": "comment",
+  "targetId": {
+    "$oid": "69f195ad4e3d2e944bcff9f1"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T05:22:53.891Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f195b14e3d2e944bcff9f4"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "username": "tranthib",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "createdAt": {
+    "$date": "2026-04-29T05:22:57.055Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f9ff0191da6e01c82dbc39"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "createdAt": {
+    "$date": "2026-05-05T14:30:25.624Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f9ff2591da6e01c82dbc3a"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439001"
+  },
+  "username": "admin_master",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439001"
+  },
+  "createdAt": {
+    "$date": "2026-05-05T14:31:01.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f9ff3791da6e01c82dbc3d"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439001"
+  },
+  "username": "admin_master",
+  "action": "post_liked",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "69f16b24a5640385c63ef89a"
+  },
+  "createdAt": {
+    "$date": "2026-05-05T14:31:19.431Z"
+  }
+}]

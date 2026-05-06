@@ -1,0 +1,374 @@
+[{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439001"
+  },
+  "username": "admin_master",
+  "email": "admin@blog.com",
+  "passwordHash": "hash1",
+  "fullName": "Admin Master",
+  "role": "admin",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-01-15T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439002"
+  },
+  "username": "mod_helper",
+  "email": "mod@blog.com",
+  "passwordHash": "hash2",
+  "fullName": "Moderator",
+  "role": "admin",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-03-20T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "email": "nguyenvana@gmail.com",
+  "passwordHash": "hash3",
+  "fullName": "Nguyễn Văn An",
+  "role": "user",
+  "status": "active",
+  "author": {
+    "isAuthor": true,
+    "totalPosts": 3,
+    "totalLikes": 1,
+    "totalViews": 1
+  },
+  "createdAt": {
+    "$date": "2024-05-09T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "username": "tranthib",
+  "email": "tranthib@gmail.com",
+  "passwordHash": "hash4",
+  "fullName": "Trần Thị Bích",
+  "role": "user",
+  "status": "active",
+  "author": {
+    "isAuthor": true,
+    "totalPosts": 2,
+    "totalLikes": 1,
+    "totalViews": 1
+  },
+  "createdAt": {
+    "$date": "2024-06-08T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439005"
+  },
+  "username": "lehoangc",
+  "email": "lehoangc@gmail.com",
+  "passwordHash": "hash5",
+  "fullName": "Lê Hoàng Cường",
+  "role": "user",
+  "status": "active",
+  "author": {
+    "isAuthor": true,
+    "totalPosts": 3,
+    "totalLikes": 1,
+    "totalViews": 1
+  },
+  "createdAt": {
+    "$date": "2024-06-28T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439006"
+  },
+  "username": "phamminhd",
+  "email": "phamminhd@gmail.com",
+  "passwordHash": "hash6",
+  "fullName": "Phạm Minh Đức",
+  "role": "user",
+  "status": "active",
+  "author": {
+    "isAuthor": true,
+    "totalPosts": 2
+  },
+  "createdAt": {
+    "$date": "2024-07-18T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439007"
+  },
+  "username": "dothie",
+  "email": "dothie@gmail.com",
+  "passwordHash": "hash7",
+  "fullName": "Đỗ Thị Hồng",
+  "role": "user",
+  "status": "active",
+  "author": {
+    "isAuthor": true,
+    "totalPosts": 1,
+    "totalLikes": 1,
+    "totalViews": 1
+  },
+  "createdAt": {
+    "$date": "2024-08-07T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439008"
+  },
+  "username": "hoangvanf",
+  "email": "hoangvanf@gmail.com",
+  "passwordHash": "hash8",
+  "fullName": "Hoàng Văn Phúc",
+  "role": "user",
+  "status": "active",
+  "author": {
+    "isAuthor": true,
+    "totalPosts": 3,
+    "totalLikes": 2,
+    "totalViews": 2
+  },
+  "createdAt": {
+    "$date": "2024-08-17T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439009"
+  },
+  "username": "vutrong",
+  "email": "vutrong@gmail.com",
+  "passwordHash": "hash9",
+  "fullName": "Vũ Trọng Nghĩa",
+  "role": "user",
+  "status": "active",
+  "author": {
+    "isAuthor": true,
+    "totalPosts": 1
+  },
+  "createdAt": {
+    "$date": "2024-08-27T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd79943900a"
+  },
+  "username": "buithanh",
+  "email": "buithanh@gmail.com",
+  "passwordHash": "hash10",
+  "fullName": "Bùi Thanh Hà",
+  "role": "user",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-10-06T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd79943900b"
+  },
+  "username": "dangminh",
+  "email": "dangminh@gmail.com",
+  "passwordHash": "hash11",
+  "fullName": "Đặng Minh",
+  "role": "user",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-10-16T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd79943900c"
+  },
+  "username": "lethu",
+  "email": "lethu@gmail.com",
+  "passwordHash": "hash12",
+  "fullName": "Lê Thu",
+  "role": "user",
+  "status": "active",
+  "author": {
+    "isAuthor": true,
+    "totalPosts": 1,
+    "totalLikes": 1,
+    "totalViews": 1
+  },
+  "createdAt": {
+    "$date": "2024-09-26T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd79943900d"
+  },
+  "username": "truongan",
+  "email": "truongan@gmail.com",
+  "passwordHash": "hash13",
+  "fullName": "Trương An",
+  "role": "user",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-10-26T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd79943900e"
+  },
+  "username": "nguyenkhoi",
+  "email": "nguyenkhoi@gmail.com",
+  "passwordHash": "hash14",
+  "fullName": "Nguyễn Khôi",
+  "role": "user",
+  "status": "active",
+  "author": {
+    "isAuthor": true,
+    "totalPosts": 1
+  },
+  "createdAt": {
+    "$date": "2024-10-21T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd79943900f"
+  },
+  "username": "mai_thanh",
+  "email": "mai@gmail.com",
+  "passwordHash": "hash15",
+  "fullName": "Mai Thanh",
+  "role": "user",
+  "status": "active",
+  "author": {
+    "isAuthor": true,
+    "totalPosts": 1
+  },
+  "createdAt": {
+    "$date": "2024-10-31T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439010"
+  },
+  "username": "quanghuy",
+  "email": "quanghuy@gmail.com",
+  "passwordHash": "hash16",
+  "fullName": "Quang Huy",
+  "role": "user",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-11-10T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439011"
+  },
+  "username": "ngocanh",
+  "email": "ngocanh@gmail.com",
+  "passwordHash": "hash17",
+  "fullName": "Ngọc Ánh",
+  "role": "user",
+  "status": "active",
+  "author": {
+    "isAuthor": true,
+    "totalPosts": 2
+  },
+  "createdAt": {
+    "$date": "2024-11-05T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439012"
+  },
+  "username": "duchanh",
+  "email": "duchanh@gmail.com",
+  "passwordHash": "hash18",
+  "fullName": "Đức Hạnh",
+  "role": "user",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-11-25T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439013"
+  },
+  "username": "thuylinh",
+  "email": "thuylinh@gmail.com",
+  "passwordHash": "hash19",
+  "fullName": "Thùy Linh",
+  "role": "user",
+  "status": "active",
+  "author": {
+    "isAuthor": true,
+    "totalPosts": 1,
+    "totalLikes": 1,
+    "totalViews": 1
+  },
+  "createdAt": {
+    "$date": "2024-11-20T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439014"
+  },
+  "username": "tuanvu",
+  "email": "tuanvu@gmail.com",
+  "passwordHash": "hash20",
+  "fullName": "Tuấn Vũ",
+  "role": "user",
+  "status": "active",
+  "createdAt": {
+    "$date": "2024-12-15T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439015"
+  },
+  "username": "hongnhung",
+  "email": "hongnhung@gmail.com",
+  "passwordHash": "hash21",
+  "fullName": "Hồng Nhung",
+  "role": "user",
+  "status": "active",
+  "author": {
+    "isAuthor": true,
+    "totalPosts": 1
+  },
+  "createdAt": {
+    "$date": "2024-12-05T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799439016"
+  },
+  "username": "spam_user",
+  "email": "spam@temp.com",
+  "passwordHash": "hash22",
+  "fullName": "Spam",
+  "role": "user",
+  "status": "banned",
+  "createdAt": {
+    "$date": "2024-12-30T17:00:00.000Z"
+  }
+}]

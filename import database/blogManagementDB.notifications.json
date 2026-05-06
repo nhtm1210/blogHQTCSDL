@@ -1,0 +1,154 @@
+[{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa90d"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "type": "like",
+  "message": "dangminh thích bài của bạn",
+  "isRead": true,
+  "createdAt": {
+    "$date": "2024-08-19T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa90e"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "type": "comment",
+  "message": "buithanh bình luận",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2024-08-29T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f0265e71a7ec741a81490c"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439013"
+  },
+  "type": "like",
+  "message": "nguyenvana đã thích bài 'Cuộc sống freelancer'",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-04-28T03:15:42.935Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f0267471a7ec741a81490f"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439005"
+  },
+  "type": "like",
+  "message": "nguyenvana đã thích bài 'Khám phá Sapa'",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-04-28T03:16:04.425Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f026c871a7ec741a814914"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd79943900c"
+  },
+  "type": "like",
+  "message": "dangminh đã thích bài 'Học tiếng Anh'",
+  "isRead": true,
+  "createdAt": {
+    "$date": "2026-04-28T03:17:28.279Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f026cb71a7ec741a814917"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd79943900c"
+  },
+  "type": "comment",
+  "message": "dangminh đã bình luận bài 'Học tiếng Anh'",
+  "isRead": true,
+  "createdAt": {
+    "$date": "2026-04-28T03:17:31.616Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f16e217b2f2b8884534ef1"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439008"
+  },
+  "type": "like",
+  "message": "nguyenvana đã thích bài 'Thi kết thúc môn Lập trình web'",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-04-29T02:34:09.299Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f1957e4e3d2e944bcff9ea"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439007"
+  },
+  "type": "like",
+  "message": "nguyenvana đã thích bài 'Chăm sóc da mùa đông'",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-04-29T05:22:06.372Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f195aa4e3d2e944bcff9ee"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "type": "like",
+  "message": "nguyenvana đã thích bài 'Nấu phở bò'",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-04-29T05:22:50.434Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f195ad4e3d2e944bcff9f2"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "type": "comment",
+  "message": "nguyenvana đã bình luận bài 'Nấu phở bò'",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-04-29T05:22:53.889Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69f9ff3791da6e01c82dbc3c"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439008"
+  },
+  "type": "like",
+  "message": "admin_master đã thích bài 'Thi kết thúc môn Lập trình web'",
+  "isRead": false,
+  "createdAt": {
+    "$date": "2026-05-05T14:31:19.419Z"
+  }
+}]

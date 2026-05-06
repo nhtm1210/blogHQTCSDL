@@ -1,0 +1,36 @@
+[{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa90f"
+  },
+  "reporterId": {
+    "$oid": "507f1f77bcf86cd79943900a"
+  },
+  "targetType": "comment",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799442001"
+  },
+  "reason": "spam",
+  "description": "Spam quảng cáo",
+  "status": "resolved",
+  "createdAt": {
+    "$date": "2025-01-09T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69ef2e4fe053db217c1aa910"
+  },
+  "reporterId": {
+    "$oid": "507f1f77bcf86cd79943900d"
+  },
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439016"
+  },
+  "reason": "spam",
+  "description": "Tài khoản spam",
+  "status": "resolved",
+  "createdAt": {
+    "$date": "2025-01-10T17:00:00.000Z"
+  }
+}]

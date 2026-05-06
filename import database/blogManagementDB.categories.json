@@ -1,0 +1,99 @@
+[{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799440001"
+  },
+  "name": "Lập trình",
+  "slug": "lap-trinh",
+  "postsCount": 4,
+  "createdAt": {
+    "$date": "2024-01-15T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799440002"
+  },
+  "name": "Du lịch",
+  "slug": "du-lich",
+  "postsCount": 3,
+  "createdAt": {
+    "$date": "2024-01-15T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799440003"
+  },
+  "name": "Ẩm thực",
+  "slug": "am-thuc",
+  "postsCount": 2,
+  "createdAt": {
+    "$date": "2024-01-15T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799440004"
+  },
+  "name": "Công nghệ",
+  "slug": "cong-nghe",
+  "postsCount": 3,
+  "createdAt": {
+    "$date": "2024-01-15T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799440005"
+  },
+  "name": "Tài chính",
+  "slug": "tai-chinh",
+  "postsCount": 1,
+  "createdAt": {
+    "$date": "2024-01-15T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799440006"
+  },
+  "name": "Sức khỏe",
+  "slug": "suc-khoe",
+  "postsCount": 3,
+  "createdAt": {
+    "$date": "2024-01-15T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799440007"
+  },
+  "name": "Giáo dục",
+  "slug": "giao-duc",
+  "postsCount": 2,
+  "createdAt": {
+    "$date": "2024-01-15T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799440008"
+  },
+  "name": "Giải trí",
+  "slug": "giai-tri",
+  "postsCount": 1,
+  "createdAt": {
+    "$date": "2024-01-15T17:00:00.000Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "507f1f77bcf86cd799440009"
+  },
+  "name": "Văn hóa",
+  "slug": "van-hoa",
+  "postsCount": 1,
+  "createdAt": {
+    "$date": "2024-01-15T17:00:00.000Z"
+  }
+}]
