@@ -1,6 +1,4 @@
-// ============================================================================
 //  routes/notifications.js - Collection notifications
-// ============================================================================
 
 const express = require("express");
 const { getDb, toObjectId, asyncHandler } = require("../db");

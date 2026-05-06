@@ -542,4 +542,215 @@
   "createdAt": {
     "$date": "2026-05-05T14:31:19.431Z"
   }
+},
+{
+  "_id": {
+    "$oid": "69fb22e3d5812bdbe0fc4f8c"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439001"
+  },
+  "username": "admin_master",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439001"
+  },
+  "createdAt": {
+    "$date": "2026-05-06T11:15:47.514Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69fb258cd5812bdbe0fc4f8d"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439001"
+  },
+  "username": "admin_master",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439001"
+  },
+  "createdAt": {
+    "$date": "2026-05-06T11:27:08.160Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69fb2592d5812bdbe0fc4f8e"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "createdAt": {
+    "$date": "2026-05-06T11:27:14.984Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69fb2619d5812bdbe0fc4f90"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "post_created",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "69fb2619d5812bdbe0fc4f8f"
+  },
+  "metadata": {
+    "title": "Văn hóa",
+    "status": "published"
+  },
+  "createdAt": {
+    "$date": "2026-05-06T11:29:29.996Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69fb2623d5812bdbe0fc4f91"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "post_deleted_by_owner",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "69fb2619d5812bdbe0fc4f8f"
+  },
+  "metadata": {
+    "title": "Văn hóa"
+  },
+  "createdAt": {
+    "$date": "2026-05-06T11:29:39.592Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69fb2633d5812bdbe0fc4f92"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "createdAt": {
+    "$date": "2026-05-06T11:29:55.414Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69fb2643d5812bdbe0fc4f95"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "comment_added",
+  "targetType": "comment",
+  "targetId": {
+    "$oid": "69fb2643d5812bdbe0fc4f93"
+  },
+  "createdAt": {
+    "$date": "2026-05-06T11:30:11.664Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69fb2726d5812bdbe0fc4f96"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "username": "tranthib",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "createdAt": {
+    "$date": "2026-05-06T11:33:58.409Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69fb272ad5812bdbe0fc4f99"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "username": "tranthib",
+  "action": "post_liked",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799441010"
+  },
+  "createdAt": {
+    "$date": "2026-05-06T11:34:02.989Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69fb2737d5812bdbe0fc4f9e"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "username": "tranthib",
+  "action": "post_liked",
+  "targetType": "post",
+  "targetId": {
+    "$oid": "69f16b24a5640385c63ef89a"
+  },
+  "createdAt": {
+    "$date": "2026-05-06T11:34:15.911Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69fb2740d5812bdbe0fc4f9f"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439016"
+  },
+  "username": "spam_user",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439016"
+  },
+  "createdAt": {
+    "$date": "2026-05-06T11:34:24.071Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69fb288d05f7393b6111e6c3"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "username": "nguyenvana",
+  "action": "user_login",
+  "targetType": "user",
+  "targetId": {
+    "$oid": "507f1f77bcf86cd799439003"
+  },
+  "createdAt": {
+    "$date": "2026-05-06T11:39:57.639Z"
+  }
 }]

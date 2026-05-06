@@ -1,6 +1,4 @@
-// ============================================================================
 //  PostDetail.jsx - Chi tiết bài viết + comments + actions
-// ============================================================================
 
 import { useState } from "react";
 import { X, Trash2, Heart, Bookmark } from "lucide-react";

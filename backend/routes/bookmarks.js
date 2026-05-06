@@ -1,6 +1,4 @@
-// ============================================================================
 //  routes/bookmarks.js - Collection bookmarks
-// ============================================================================
 
 const express = require("express");
 const { getDb, toObjectId, asyncHandler } = require("../db");

@@ -1,6 +1,4 @@
-// ============================================================================
-//  routes/likes.js - Collection likes (mỗi like = +1 view)
-// ============================================================================
+//  routes/likes.js - Collection likes 
 
 const express = require("express");
 const { getDb, toObjectId, asyncHandler } = require("../db");
@@ -25,7 +23,7 @@ router.post("/posts/:id/like", asyncHandler(async (req, res) => {
 
   await db.collection("likes").insertOne({ userId, postId, createdAt: new Date() });
 
-  // Mỗi like = +1 like + 1 view (theo yêu cầu)
+
   await db.collection("posts").updateOne(
     { _id: postId },
     {

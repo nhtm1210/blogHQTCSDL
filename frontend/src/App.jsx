@@ -1,6 +1,4 @@
-// ============================================================================
 //  App.jsx - Component gốc, orchestrate state và actions
-// ============================================================================
 
 import { useState, useEffect, useCallback } from "react";
 import {
@@ -29,7 +27,7 @@ import CreatePostModal from "./components/CreatePostModal.jsx";
 import LoginPage from "./components/LoginPage.jsx";
 
 export default function App() {
-  // ===== STATE: dữ liệu lấy từ MongoDB qua API =====
+  // STATE: dữ liệu lấy từ MongoDB qua API
   const [users, setUsers] = useState([]);
   const [posts, setPosts] = useState([]);
   const [comments, setComments] = useState([]);
@@ -39,7 +37,7 @@ export default function App() {
   const [activityLogs, setActivityLogs] = useState([]);
   const [stats, setStats] = useState(null);
 
-  // ===== STATE: đăng nhập =====
+  //  STATE: đăng nhập
   const [loggedInUser, setLoggedInUser] = useState(() => {
     try { return JSON.parse(sessionStorage.getItem("blogUser")) || null; }
     catch { return null; }
@@ -47,7 +45,7 @@ export default function App() {
   const [loginError, setLoginError] = useState(null);
   const [loginLoading, setLoginLoading] = useState(false);
 
-  // ===== STATE UI =====
+  // STATE UI
   const [currentUserId, setCurrentUserId] = useState(null);
   const [activeTab, setActiveTab] = useState("posts");
   const [selectedPostId, setSelectedPostId] = useState(null);
@@ -61,9 +59,7 @@ export default function App() {
   const isAdmin = currentUser?.role === "admin";
   const isBanned = currentUser?.status === "banned";
 
-  // ============================================================================
   //  FETCH DATA
-  // ============================================================================
 
   const fetchAllData = useCallback(async () => {
     try {
@@ -109,9 +105,7 @@ export default function App() {
     commentsApi.byPost(selectedPostId).then(setComments).catch(() => {});
   }, [selectedPostId]);
 
-  // ============================================================================
   //  ACTIONS — gọi tới API
-  // ============================================================================
 
   const handleLike = async (postId) => {
     if (isBanned) return alert("Tài khoản đã bị khóa!");
@@ -219,9 +213,7 @@ export default function App() {
     setActiveTab("posts");
   };
 
-  // ============================================================================
   //  DERIVED DATA
-  // ============================================================================
 
   const userById = (id) => users.find(u => u._id === id);
 
@@ -249,9 +241,7 @@ export default function App() {
     { id: "stats", label: "Thống kê", icon: Crown }
   ];
 
-  // ============================================================================
   //  LOADING / ERROR STATES
-  // ============================================================================
 
   // Chưa đăng nhập → hiển thị trang login
   if (!loggedInUser) {
@@ -302,9 +292,7 @@ export default function App() {
     );
   }
 
-  // ============================================================================
   //  RENDER
-  // ============================================================================
 
   return (
     <div className="min-h-screen text-stone-900">

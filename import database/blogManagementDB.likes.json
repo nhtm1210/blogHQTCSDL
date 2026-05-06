@@ -165,4 +165,32 @@
   "createdAt": {
     "$date": "2026-05-05T14:31:19.402Z"
   }
+},
+{
+  "_id": {
+    "$oid": "69fb272ad5812bdbe0fc4f97"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "postId": {
+    "$oid": "507f1f77bcf86cd799441010"
+  },
+  "createdAt": {
+    "$date": "2026-05-06T11:34:02.986Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "69fb2737d5812bdbe0fc4f9c"
+  },
+  "userId": {
+    "$oid": "507f1f77bcf86cd799439004"
+  },
+  "postId": {
+    "$oid": "69f16b24a5640385c63ef89a"
+  },
+  "createdAt": {
+    "$date": "2026-05-06T11:34:15.909Z"
+  }
 }]

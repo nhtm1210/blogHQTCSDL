@@ -1,6 +1,4 @@
-// ============================================================================
 //  BookmarksList.jsx - Hiển thị bookmarks của user
-// ============================================================================
 
 import { Bookmark } from "lucide-react";
 import { fmtDate } from "./shared.jsx";

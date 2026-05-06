@@ -1,6 +1,4 @@
-// ============================================================================
 //  Header.jsx - Header với thông tin user đăng nhập và nút logout
-// ============================================================================
 
 import { LogOut, RefreshCw, Shield, Ban } from "lucide-react";
 import { RoleBadge } from "./shared.jsx";

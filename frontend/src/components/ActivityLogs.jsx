@@ -1,6 +1,4 @@
-// ============================================================================
 //  ActivityLogs.jsx - Audit log của hệ thống
-// ============================================================================
 
 import { Activity } from "lucide-react";
 import { fmtDate } from "./shared.jsx";

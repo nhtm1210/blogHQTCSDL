@@ -1,6 +1,4 @@
-// ============================================================================
 //  StatsView.jsx - Dashboard thống kê + bảng xếp hạng
-// ============================================================================
 
 import { FileText, Archive, Heart, Eye, Crown } from "lucide-react";
 

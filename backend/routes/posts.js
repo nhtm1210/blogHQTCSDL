@@ -1,6 +1,4 @@
-// ============================================================================
 //  routes/posts.js - CRUD cho collection posts
-// ============================================================================
 
 const express = require("express");
 const { getDb, toObjectId, asyncHandler } = require("../db");

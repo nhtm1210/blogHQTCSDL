@@ -1,7 +1,5 @@
-// ============================================================================
 //  api.js - API client gọi tới backend
 //  Backend chạy ở port 4000 → vite.config.js đã proxy /api → localhost:4000
-// ============================================================================
 
 const BASE = "/api";
 
@@ -12,12 +10,12 @@ const request = async (method, path, body) => {
   return res.json();
 };
 
-// === AUTH ===
+//  AUTH 
 export const authApi = {
   login: (body) => request("POST", "/auth/login", body)
 };
 
-// === USERS ===
+//  USERS 
 export const usersApi = {
   list: () => request("GET", "/users"),
   get: (id) => request("GET", `/users/${id}`),
@@ -25,7 +23,7 @@ export const usersApi = {
   toggleBan: (id, body) => request("PATCH", `/users/${id}/ban`, body)
 };
 
-// === POSTS ===
+//  POSTS 
 export const postsApi = {
   list: (params = {}) => {
     const q = new URLSearchParams(params).toString();
@@ -37,40 +35,40 @@ export const postsApi = {
   changeStatus: (id, body) => request("PATCH", `/posts/${id}/status`, body)
 };
 
-// === COMMENTS ===
+//  COMMENTS 
 export const commentsApi = {
   byPost: (postId) => request("GET", `/comments?postId=${postId}`),
   create: (body) => request("POST", "/comments", body),
   hide: (id) => request("PATCH", `/comments/${id}/hide`)
 };
 
-// === LIKES ===
+//  LIKES 
 export const likesApi = {
   like: (postId, body) => request("POST", `/posts/${postId}/like`, body),
   unlike: (postId, body) => request("DELETE", `/posts/${postId}/like`, body)
 };
 
-// === BOOKMARKS ===
+//  BOOKMARKS 
 export const bookmarksApi = {
   byUser: (userId) => request("GET", `/bookmarks?userId=${userId}`),
   toggle: (body) => request("POST", "/bookmarks", body)
 };
 
-// === NOTIFICATIONS ===
+//  NOTIFICATIONS 
 export const notificationsApi = {
   byUser: (userId) => request("GET", `/notifications?userId=${userId}`),
   markRead: (id) => request("PATCH", `/notifications/${id}/read`),
   readAll: (body) => request("PATCH", "/notifications/read-all", body)
 };
 
-// === REPORTS ===
+//  REPORTS 
 export const reportsApi = {
   list: (status) => request("GET", `/reports${status ? "?status=" + status : ""}`),
   create: (body) => request("POST", "/reports", body),
   resolve: (id, body) => request("PATCH", `/reports/${id}`, body)
 };
 
-// === ADMIN ===
+//  ADMIN 
 export const adminApi = {
   activityLogs: () => request("GET", "/activity-logs"),
   stats: () => request("GET", "/stats"),

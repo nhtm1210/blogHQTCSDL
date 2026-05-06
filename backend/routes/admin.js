@@ -1,6 +1,4 @@
-// ============================================================================
 //  routes/admin.js - activityLogs, stats, categories (read-only)
-// ============================================================================
 
 const express = require("express");
 const { getDb, asyncHandler } = require("../db");

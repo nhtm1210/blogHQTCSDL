@@ -1,7 +1,4 @@
-// ============================================================================
 //  server.js - Entry point của backend
-//  Chạy: npm install && node server.js
-// ============================================================================
 
 const express = require("express");
 const cors = require("cors");

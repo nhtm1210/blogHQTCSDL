@@ -1,6 +1,4 @@
-// ============================================================================
 //  NotificationsList.jsx - Danh sách thông báo
-// ============================================================================
 
 import { Heart, MessageSquare, Bell } from "lucide-react";
 import { fmtDate } from "./shared.jsx";

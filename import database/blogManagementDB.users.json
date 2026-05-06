@@ -39,8 +39,8 @@
   "author": {
     "isAuthor": true,
     "totalPosts": 3,
-    "totalLikes": 1,
-    "totalViews": 1
+    "totalLikes": 3,
+    "totalViews": 521
   },
   "createdAt": {
     "$date": "2024-05-09T17:00:00.000Z"
@@ -59,8 +59,8 @@
   "author": {
     "isAuthor": true,
     "totalPosts": 2,
-    "totalLikes": 1,
-    "totalViews": 1
+    "totalLikes": 2,
+    "totalViews": 891
   },
   "createdAt": {
     "$date": "2024-06-08T17:00:00.000Z"
@@ -79,8 +79,8 @@
   "author": {
     "isAuthor": true,
     "totalPosts": 3,
-    "totalLikes": 1,
-    "totalViews": 1
+    "totalLikes": 3,
+    "totalViews": 1412
   },
   "createdAt": {
     "$date": "2024-06-28T17:00:00.000Z"
@@ -98,7 +98,9 @@
   "status": "active",
   "author": {
     "isAuthor": true,
-    "totalPosts": 2
+    "totalPosts": 2,
+    "totalLikes": 0,
+    "totalViews": 1100
   },
   "createdAt": {
     "$date": "2024-07-18T17:00:00.000Z"
@@ -118,7 +120,7 @@
     "isAuthor": true,
     "totalPosts": 1,
     "totalLikes": 1,
-    "totalViews": 1
+    "totalViews": 421
   },
   "createdAt": {
     "$date": "2024-08-07T17:00:00.000Z"
@@ -137,8 +139,8 @@
   "author": {
     "isAuthor": true,
     "totalPosts": 3,
-    "totalLikes": 2,
-    "totalViews": 2
+    "totalLikes": 3,
+    "totalViews": 468
   },
   "createdAt": {
     "$date": "2024-08-17T17:00:00.000Z"
@@ -156,7 +158,9 @@
   "status": "active",
   "author": {
     "isAuthor": true,
-    "totalPosts": 1
+    "totalPosts": 1,
+    "totalLikes": 0,
+    "totalViews": 380
   },
   "createdAt": {
     "$date": "2024-08-27T17:00:00.000Z"
@@ -204,7 +208,7 @@
     "isAuthor": true,
     "totalPosts": 1,
     "totalLikes": 1,
-    "totalViews": 1
+    "totalViews": 291
   },
   "createdAt": {
     "$date": "2024-09-26T17:00:00.000Z"
@@ -236,7 +240,9 @@
   "status": "active",
   "author": {
     "isAuthor": true,
-    "totalPosts": 1
+    "totalPosts": 2,
+    "totalLikes": 0,
+    "totalViews": 395
   },
   "createdAt": {
     "$date": "2024-10-21T17:00:00.000Z"
@@ -254,7 +260,9 @@
   "status": "active",
   "author": {
     "isAuthor": true,
-    "totalPosts": 1
+    "totalPosts": 1,
+    "totalLikes": 0,
+    "totalViews": 310
   },
   "createdAt": {
     "$date": "2024-10-31T17:00:00.000Z"
@@ -286,7 +294,9 @@
   "status": "active",
   "author": {
     "isAuthor": true,
-    "totalPosts": 2
+    "totalPosts": 2,
+    "totalLikes": 0,
+    "totalViews": 650
   },
   "createdAt": {
     "$date": "2024-11-05T17:00:00.000Z"
@@ -320,7 +330,7 @@
     "isAuthor": true,
     "totalPosts": 1,
     "totalLikes": 1,
-    "totalViews": 1
+    "totalViews": 491
   },
   "createdAt": {
     "$date": "2024-11-20T17:00:00.000Z"
@@ -352,7 +362,9 @@
   "status": "active",
   "author": {
     "isAuthor": true,
-    "totalPosts": 1
+    "totalPosts": 1,
+    "totalLikes": 0,
+    "totalViews": 220
   },
   "createdAt": {
     "$date": "2024-12-05T17:00:00.000Z"

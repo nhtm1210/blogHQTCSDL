@@ -1,6 +1,4 @@
-// ============================================================================
 //  ReportsList.jsx - Admin xem & xử lý báo cáo
-// ============================================================================
 
 import { Flag } from "lucide-react";
 import { StatusBadge, fmtDate } from "./shared.jsx";

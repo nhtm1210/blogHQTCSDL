@@ -1,6 +1,4 @@
-// ============================================================================
 //  routes/reports.js - Collection reports
-// ============================================================================
 
 const express = require("express");
 const { getDb, toObjectId, asyncHandler } = require("../db");

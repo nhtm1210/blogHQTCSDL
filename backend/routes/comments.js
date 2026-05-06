@@ -1,6 +1,4 @@
-// ============================================================================
 //  routes/comments.js - Collection comments
-// ============================================================================
 
 const express = require("express");
 const { getDb, toObjectId, asyncHandler } = require("../db");

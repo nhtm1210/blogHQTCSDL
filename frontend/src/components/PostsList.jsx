@@ -1,6 +1,4 @@
-// ============================================================================
 //  PostsList.jsx - Danh sách bài viết với filter + search
-// ============================================================================
 
 import { Plus, Search, Eye, Heart, MessageSquare } from "lucide-react";
 import { StatusBadge } from "./shared.jsx";

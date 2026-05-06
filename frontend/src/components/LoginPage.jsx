@@ -1,6 +1,4 @@
-// ============================================================================
 //  LoginPage.jsx - Trang đăng nhập
-// ============================================================================
 
 import { useState } from "react";
 import { LogIn, Eye, EyeOff } from "lucide-react";
@@ -99,9 +97,6 @@ export default function LoginPage({ onLogin, error, loading }) {
             </button>
           </form>
 
-          <p className="text-xs text-stone-400 mt-6 font-sans text-center">
-            Mật khẩu lưu trong <code className="bg-stone-100 px-1 rounded">users.passwordHash</code> (MongoDB)
-          </p>
         </div>
 
         {/* Bảng tài khoản demo */}

@@ -1,6 +1,4 @@
-// ============================================================================
 //  routes/users.js - CRUD cho collection users
-// ============================================================================
 
 const express = require("express");
 const { getDb, toObjectId, asyncHandler } = require("../db");

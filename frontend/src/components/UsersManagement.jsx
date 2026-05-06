@@ -1,6 +1,4 @@
-// ============================================================================
 //  UsersManagement.jsx - Admin quản lý users (khóa, xóa cascade)
-// ============================================================================
 
 import { Trash2 } from "lucide-react";
 import { StatusBadge, RoleBadge } from "./shared.jsx";
